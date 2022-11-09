@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {  
+    height: 100%;
+    width: 100%;
+    background: rgb(139,139,140);
+    background: radial-gradient(circle, rgb(190, 190, 190) 0%, rgba(255,255,255,1) 100%);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BaseButton {
+    border-radius: 10%;
+    padding: 5px;
+    border: solid darkblue 2px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.linkToText {
+    color:white;
+    font-weight: bold;
+    background-color: blue;
+    text-decoration: none;
+}
+
+#divisio {
+    height: 100px;
+    width: 2px;
+    background-color: gray;
+}
