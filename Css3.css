@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("longImgs/full.png");
+    color: #C9D1D9;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+}
+
+#master {
+    position: absolute;
+    top: 22vh;
+    left: 18.29vw;
+}
+
+#code {
+    position: absolute;
+    top: 22vh;
+    left: 60.8vw; 
+}
+
+#goTo {
+    position: absolute;
+    top: 22vh;
+    left: 55.6vw; 
+}
+
+#fText1 {
+    position: absolute;
+    top: 34.8vh;
+    left: 20.8vw; 
+}
+
+#fText2 {
+    position: absolute;
+    top: 38.7vh;
+    left: 20.8vw; 
+}
+
+#fText3 {
+    position: absolute;
+    top: 42.7vh;
+    left: 20.8vw; 
+}
+
+#fText4 {
+    position: absolute;
+    top: 46.7vh;
+    left: 20.8vw; 
+}
+
+#fText5 {
+    position: absolute;
+    top: 50.6vh;
+    left: 20.8vw; 
+}
+
+#fText6 {
+    position: absolute;
+    top: 9.7vh;
+    left: 2.8vw; 
+}
+
+#fText7 {
+    position: absolute;
+    top: 9.7vh;
+    left: 7.66vw; 
+    font-weight: 550;
+}
+
+#fText8 {
+    position: absolute;
+    top: 63vh;
+    left: 20vw; 
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.fakeText {
+    width: fit-content;
+}
+
+.fakeTextH {
+    width: fit-content;
+    font-size: 21px;
+    color: #58A6FF;
+}
