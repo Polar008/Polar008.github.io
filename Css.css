@@ -6,8 +6,8 @@
 body {  
     height: 100%;
     width: 100%;
-    background: rgb(139,139,140);
-    background: radial-gradient(circle, rgb(190, 190, 190) 0%, rgba(255,255,255,1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 50%, rgba(5,255,0,1) 50%, rgba(255,255,255,1) 100%);
 }
 
 .container {
@@ -37,3 +37,27 @@ body {
     width: 2px;
     background-color: gray;
 }
+
+.textBox {
+    display: none;
+    height: 20vh;
+    width: 30vw;
+    border: solid black 2px;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    background-color:wheat;
+    flex-direction: row;
+}
+
+.textBox > img {
+    height: 20vh;
+}
+
+.textBox > p {
+    padding: 2%;
+}
+
+/*****************************************************************/
+
+

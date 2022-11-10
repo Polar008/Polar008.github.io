@@ -1,0 +1,23 @@
+body {
+    background-image: url("gitBackground.png");
+}
+
+.textBox {
+    display: none;
+    height: 20vh;
+    width: 30vw;
+    border: solid black 2px;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    background-color:wheat;
+    flex-direction: row;
+}
+
+.textBox > img {
+    height: 20vh;
+}
+
+.textBox > p {
+    padding: 2%;
+}
