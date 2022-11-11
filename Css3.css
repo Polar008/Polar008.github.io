@@ -88,3 +88,63 @@ body {
     font-size: 21px;
     color: #58A6FF;
 }
+/*************************Animations******************************/
+.spin {
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.goAway {
+    animation-name: goAway;
+    animation-duration: 4s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes goAway {
+    0%      {top: 22vh;}
+    100%    {top: -22vh;}
+}
+
+.fadeAway {
+    animation-name: fadeAway;
+    animation-duration: 4s; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes fadeAway {
+    0%      {opacity: 1;}
+    100%    {opacity: 0;}
+}
+
+/*************************God*******************************/
+.textBox {
+    display: none;
+    height: 20vh;
+    width: 30vw;
+    border: solid black 2px;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    background-color:wheat;
+    flex-direction: row;
+    color: black;
+}
+
+.textBox > img {
+    height: 20vh;
+}
+
+.textBox > p {
+    padding: 2%;
+}

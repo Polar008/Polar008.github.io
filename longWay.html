@@ -8,35 +8,37 @@
         <link rel="stylesheet" href="Css3.css">
     </head>
     <body>
-        <img src="longImgs/goToFile.png" alt="" id="goTo">
-        <img src="longImgs/code.png" alt="" id="code">
-        <img src="longImgs/master.png" alt="" id="master">
-        <div class="fakeText" id="fText1" onclick="changetext()">
+        <img src="longImgs/goToFile.png" alt="" id="goTo" onclick="goToClick()">
+        <img src="longImgs/code.png" alt="" id="code" onclick="codeClick()">
+        <img src="longImgs/master.png" alt="" id="master" onclick="masterClick()">
+        <div class="fakeText" id="fText1" onclick="changetext1()">
             <p id="innerFText1">Config</p>
         </div>
-        <div class="fakeText" id="fText2" >
+        <div class="fakeText" id="fText2" onclick="changetext2()">
             <p id="innerFText2">Content</p>
         </div>
-        <div class="fakeText" id="fText3">
-            <p>.gitignore</p>
+        <div class="fakeText" id="fText3" onclick="changetext3()">
+            <p id="innerFText3">.gitignore</p>
         </div>
-        <div class="fakeText" id="fText4">
-            <p>README.md</p>
+        <div class="fakeText" id="fText4" onclick="changetext4()">
+            <p id="innerFText4">README.md</p>
         </div>
-        <div class="fakeText" id="fText5">
-            <p>TowerDefence.uproject</p>
+        <div class="fakeText" id="fText5" onclick="changetext5()">
+            <p id="innerFText5">TowerDefence.uproject</p>
         </div>
-        <div class="fakeTextH" id="fText6">
+        <div class="fakeTextH" id="fText6" onclick="small()">
             <p>Polar008</p>
         </div>
-        <div class="fakeTextH" id="fText7">
+        <div class="fakeTextH" id="fText7" onclick="big()">
             <p>UnrealEstrategia</p>
         </div>
         <div class="fakeText" id="fText8">
             <p>UnrealEstrategia</p>
         </div>
-
-        
+        <div class="textBox" id="box">
+            <img src="god.png" alt="">
+            <p id="conver"></p>
+        </div>
     </body>
     <script src="script3.js"></script>
 </html>
